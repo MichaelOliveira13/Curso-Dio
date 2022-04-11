@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        .container {
+            background-color:bisque;
+            padding: 10px;
+        }
+
+        .title {
+            background-color:rgb(30, 219, 200);
+            border-radius: 5px;
+            text-align: center; 
+        }
+
+        .title__text{
+            color:rgb(217, 45, 36);
+            font: 16px "Times";
+        }
+
+        .content {
+            background-color:rgb(246, 147, 26);
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content__form{
+            background-color:lightgreen;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content__label {
+            font: 16px "Times";
+            padding: 15px;
+        }
+
+        .content__submit{
+            background-color: cornflowerblue;
+            border-radius: 5px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .content__submit--hober:hover{
+            background-color:coral;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="title">
+            <h1 class="title__text">Formulário</h1>
+        </div>
+
+        <div class="content">
+
+            <form action="" class="content__form">
+
+                <label for="nome" class="content__label">Nome</label>
+                <input type="text">
+
+                <label for="email" class="content__label" >Email</label>
+                <input type="email" >
+
+                <label for="senha" class="content__label">Senha</label>
+                <input type="password" >
+
+                <label for="Confirmar-Senha" class="content__label">Confirmar Senha</label>
+                <input type="password">
+
+                <input type="submit" value="Confirmar" class="content__submit content__submit--hober" />
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

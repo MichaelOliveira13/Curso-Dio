@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padrão BEM</title>
+    <style>
+        .container {
+            border: 1px solid rgb(21, 20, 20);
+            padding: 10px;
+            background-color:aqua;
+        }
+
+        .container__form{
+            background-color:blue;
+            padding: 10px;
+        }    
+
+            /*não fazer isso*/
+            /*.container__form__input*/
+
+            /*fazer isso*/
+            .container__input {
+                background-color:rgb(80, 239, 55);
+                border-radius: 5px;
+                padding: 05px;
+                
+            }
+
+        .container__submit{
+            background-color:darkgoldenrod;
+            border-radius: 5px;
+            color: white;
+        }    
+
+        .container__submit--hover:hover{
+            background-color:rgb(93, 63, 26)
+        }
+
+        .container__submit--active:active{
+            background-color:red
+        }
+
+    </style>
+</head>
+<body>
+    <!--Bloco-->
+    <div class="container">
+        
+        <!--Componete-->
+        <form action="" class="container__form">
+
+            <!-- Componete-->
+            <input type="text" placeholder="Nome" class="container__input">
+            <input type="password" placeholder="Senha" class="container__input">
+            <input type="submit" value="Entrar" class="container__submit container__submit--hover container__submit--active">
+            
+        </form>
+    </div>
+    
+</body>
+</html>
