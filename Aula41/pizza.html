@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Pizzaria TransformaTEC</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <div style="width: 50%;">
 
-        <h1>Pizzaria Transforma Tec</h1>
+        <h1 style="font-size: 50px;text-shadow: 2px 2px #762121; ">Pizzaria Transforma Tec</h1>
 
         <form id="pizza_form">
 
@@ -34,6 +34,7 @@
                 <label for="size">Tamanho</label>
                 <br>
                 <select id="size" name="size">
+                    <option>Selecione</option>
                     <option>Pequena</option>
                     <option>Media</option>
                     <option>Grande</option>
@@ -45,6 +46,7 @@
                 <label for="border">Sabor da borda</label>
                 <br>
                 <select id="border" name="border">
+                    <option>Selecione</option>
                     <option>Chocolate</option>
                     <option>Cheddar</option>
                     <option>Catupiry</option>
@@ -56,6 +58,7 @@
                 <label for="border-thick">Espessura da massa</label>
                 <br>
                 <select id="border-thick" name="border-thick">
+                    <option>Selecione</option>
                     <option>Fina</option>
                     <option>Média</option>
                     <option>Grossa</option>
@@ -84,17 +87,17 @@
                 <label>Palmito</label>
             </div>
 
-            <div class="input-group">
+            <div class="input-group" style="display: grid;">
                 <label>Observações</label>
                 <br>
-                <textarea id="message" name="message" rows="6" cols="35"></textarea>
+                <textarea id="message" name="message" rows="6" cols="63" placeholder="Tirar cebola, acrescentar maionese, etc..."></textarea>
             </div>
 
             <div class="input-group">
                 <br>
-                <button type="submit" class="btn">Pedir!</button>
+                <button type="submit" class="btn" style="font-size: 27px;">Fazer pedido!</button>
                 <br><br>
-                <button type="reset" class="btn">Limpar</button>
+                <button type="reset" class="btn" style="font-size: 18px;">Limpar</button>
             </div>
         </form>
 

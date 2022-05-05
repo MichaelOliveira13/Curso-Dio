@@ -1,8 +1,12 @@
         *{
-            font-family: 'Courier New', Courier, monospace;
-            padding: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 6px;
             font-size: 20px;
             border-radius: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
             
         }
 
@@ -12,8 +16,7 @@
         }
 
         body{
-            background-image: linear-gradient( 64.5deg,  rgba(245,116,185,1) 14.7%, rgba(89,97,223,1) 88.7% );
-            
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );           
         }
 
         h1, h2, label{
@@ -25,7 +28,6 @@
         }
 
         input, select, textarea{
-            
             background-color: antiquewhite;
         }
     
