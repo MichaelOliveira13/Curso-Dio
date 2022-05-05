@@ -1,0 +1,33 @@
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            padding: 5px;
+            font-size: 20px;
+            border-radius: 5px;
+            
+        }
+
+        .btn{
+            width: 100%;
+            background-color: antiquewhite;
+        }
+
+        body{
+            background-image: linear-gradient( 64.5deg,  rgba(245,116,185,1) 14.7%, rgba(89,97,223,1) 88.7% );
+            
+        }
+
+        h1, h2, label{
+            color: antiquewhite;
+        }
+
+        h2, h1{
+            font-size: 24px;
+        }
+
+        input, select, textarea{
+            
+            background-color: antiquewhite;
+        }
+    
+
+
