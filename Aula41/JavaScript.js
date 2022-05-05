@@ -1,19 +1,19 @@
-function getPizza(event) {
-        
+function getPizza(event){
+
     event.preventDefault();
-    
-    const data = new FormData(event.target);
-    
-    const formJSON = Object.fromEntries(data.entries());
 
+    const data = new FormData(event.target)
 
-    formJSON.taste = data.getAll('taste');
-    
-    const results = document.querySelector('pre');
-    
-    results.innerText = JSON.stringify(formJSON, null, 2);
+    const json_data = Object.fromEntries(data.entries());
+
+    json_data.taste = data.getAll('taste')
+
+    const pre = document.querySelector('pre')
+
+    pre.innerText = JSON.stringify(json_data, null,2)
+
 }
 
-const form = document.getElementById('formulario');
+const form = document.getElementById("pizza_form");
 
-form.addEventListener('submit', getPizza);
+form.addEventListener("submit",getPizza)
