@@ -5,7 +5,7 @@ function promessa() {
             let b = 3
     
             console.log("Valor da promessa: ", a * b)
-            resolve(a * c)
+            resolve(a * b)
         }
     )
 }
