@@ -1,14 +1,13 @@
-package com.Aula118.APIServer;
+package com.Aula118.APIClient;
 
 import lombok.Builder;
-import lombok.Data; 
+import lombok.Data;
 
 @Data
 @Builder
-public class StudentResponse {
+public class StudentClientResponse {
 
     private Integer id;
     private String name;
     private Integer age;
-
 }

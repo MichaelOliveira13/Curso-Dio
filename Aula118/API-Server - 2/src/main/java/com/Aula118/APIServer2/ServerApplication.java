@@ -1,13 +1,13 @@
-package com.Aula118.APIServer;
+package main.java.com.Aula118.APIServer2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiServerApplication {
+public class ServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiServerApplication.class, args);
+		SpringApplication.run(ServerApplication.class, args);
 	}
 
 }
